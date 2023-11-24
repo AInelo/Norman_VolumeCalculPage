@@ -665,13 +665,9 @@
     <script id="wp-i18n-js-after">
         wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['ltr'] });
     </script>
-    <script id='wp-color-picker-js-translations'>
-        (function (domain, translations) {
-            var localeData = translations.locale_data[domain] || translations.locale_data.messages;
-            localeData[""].domain = domain;
-            wp.i18n.setLocaleData(localeData, domain);
-        })("default", { "translation-revision-date": "2023-10-12 12:18:24+0000", "generator": "GlotPress\/4.0.0-alpha.9", "domain": "messages", "locale_data": { "messages": { "": { "domain": "messages", "plural-forms": "nplurals=2; plural=n > 1;", "lang": "fr" }, "Clear color": ["Effacer la couleur"], "Select default color": ["S\u00e9lectionner la couleur par d\u00e9faut"], "Color value": ["Valeur de couleur"], "Select Color": ["S\u00e9lectionner une couleur"], "Clear": ["Effacer"], "Default": ["Valeur par d\u00e9faut"] } }, "comment": { "reference": "wp-admin\/js\/color-picker.js" } });
-    </script>
+
+
+
     <script src='https://www.demenageur.com/wp-admin/js/color-picker.min.js?ver=6.3.1' id='wp-color-picker-js'
         defer></script>
     <script data-minify="1"
@@ -728,7 +724,8 @@
 <body
     class="page-template page-template-templates page-template-fullwidth page-template-templatesfullwidth-php page page-id-2763242 page-parent wp-embed-responsive nothome">
 
-    <script type="rocketlazyloadscript">window.pushMST_config={"vapidPK":"BPoVDe7s4Ej64L3QZxDR2CS72PrXCrHBgEZ1kX7c7wNbJnR6DDau8qwqXgjDHk0b63O61HM6u0zJ4tiOkuHUqJc","enableOverlay":true,"swPath":"/sw.js","i18n":{}};
+    <script type="rocketlazyloadscript">
+    window.pushMST_config={"vapidPK":"BPoVDe7s4Ej64L3QZxDR2CS72PrXCrHBgEZ1kX7c7wNbJnR6DDau8qwqXgjDHk0b63O61HM6u0zJ4tiOkuHUqJc","enableOverlay":true,"swPath":"/sw.js","i18n":{}};
   var pushmasterTag = document.createElement('script');
   pushmasterTag.src = "https://cdn.pushmaster-cdn.xyz/scripts/publishers/6470bb22a9610b0008200008/SDK.js";
   pushmasterTag.setAttribute('defer','');
@@ -795,6 +792,8 @@
                                     <h1>Calculer le volume de votre déménagement</h1>
                                 </header>
                                 <!-- .entry-header -->
+
+                                
 
                                 <form id="volume-calculator" class="acf-form" action="" method="post">
 
