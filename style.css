@@ -8,3 +8,41 @@ img {
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
+header.site-header .blc_phone {
+    position: relative;
+    display: inline-block;
+    padding-left: 32px;
+    line-height: normal;
+}
+
+
+header.site-header .blc_phone:before {
+    position: absolute;
+    left: 0;
+    top: -2px;
+    display: block;
+    content: '';
+    height: 100%;
+    width: 22px;
+    background: url('https://www.demenageur.com/wp-content/themes/tm-bootstrap/images/icones/ico_phone.png') no-repeat left center;
+}
+
+header.site-header .blc_phone .notice {
+    color: #6f6b6b;
+    font-size: 9px;
+    font-size: .5625rem;
+    font-weight: 400;
+    letter-spacing: .27px;
+    vertical-align: 8px;
+}
+
+header.site-header .blc_phone .call {
+    display: block;
+    color: #e4552c;
+    font-size: 21px;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: .42px;
+}
