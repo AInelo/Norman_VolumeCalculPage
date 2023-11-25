@@ -24,5 +24,5 @@ const ipAddress = "192.168.1.106";
 
 
 app.listen(port, () => {
-    console.log(`Le serveur écoute sur localhost:${port}.....`);
+    console.log(`Le serveur écoute sur ${ipAddress}:${port}.....`);
 });
